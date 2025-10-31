@@ -1,5 +1,7 @@
 import Product from "./Products";
 import Mailbox from "./Messages";
+import Unred from "./cart";
+import TextStyle from "./style-components";
 import "../App.css";
 
 export default function App() {
@@ -22,6 +24,8 @@ export default function App() {
         price={7}
       />
       <Mailbox username="Stanislav" message={['Stanislav, Hello']} underMessage={[]}/>
+      <Unred></Unred>
+      <TextStyle></TextStyle>
     </>
   );
 }
