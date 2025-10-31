@@ -2,6 +2,7 @@ import Product from "./Products";
 import Mailbox from "./Messages";
 import Unred from "./cart";
 import TextStyle from "./style-components";
+import AlertClsx from "./clsx";
 import "../App.css";
 
 export default function App() {
@@ -26,6 +27,9 @@ export default function App() {
       <Mailbox username="Stanislav" message={['Stanislav, Hello']} underMessage={[]}/>
       <Unred></Unred>
       <TextStyle></TextStyle>
+      <AlertClsx></AlertClsx>
+      <AlertClsx type="success"></AlertClsx>
+      <AlertClsx type="error"></AlertClsx>
     </>
   );
 }

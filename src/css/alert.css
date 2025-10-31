@@ -1,0 +1,15 @@
+.alert {
+    color: aqua;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.success {
+    color: green;
+    border: 5px solid red;
+    padding: 5px;
+}
+.error {
+    color: red;
+    border: 5px solid green;
+    padding: 5px;
+}
