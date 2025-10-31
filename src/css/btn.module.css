@@ -1,0 +1,14 @@
+.btn {
+    padding: 5px;
+    border: none;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 18px;
+}
+.btn-active {
+    color: chartreuse;
+}
+.btn-dis {
+    color: chocolate;
+}
