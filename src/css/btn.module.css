@@ -6,9 +6,9 @@
     cursor: pointer;
     border-radius: 18px;
 }
-.btn-active {
+.active {
     color: chartreuse;
 }
-.btn-dis {
+.dis {
     color: chocolate;
 }

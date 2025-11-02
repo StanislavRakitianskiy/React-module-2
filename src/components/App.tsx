@@ -4,6 +4,7 @@ import Unred from "./cart";
 import TextStyle from "./style-components";
 import AlertClsx from "./clsx";
 import ButtonUsual from "./button";
+import IconsAi from "./icons";
 import "../App.css";
 
 export default function App() {
@@ -31,7 +32,8 @@ export default function App() {
       <AlertClsx></AlertClsx>
       <AlertClsx type="success"></AlertClsx>
       <AlertClsx type="error"></AlertClsx>
-      <ButtonUsual text="Open"></ButtonUsual>
+      <ButtonUsual variant='dis' text="Open"></ButtonUsual>
+      <IconsAi name=""></IconsAi>
     </>
   );
 }
