@@ -1,13 +1,12 @@
-import { useState } from "react";
-export default function ClickCounter() {
-    const [click, setClick] = useState<number>(0)
-    const handleClick = () => {
-        setClick(click + 1)
-    }
+interface ClickCounterProps {
+    value: number;
+    onUpdate: () => void;
+}
+export default function ClickCounter({value, onUpdate}: ClickCounterProps) {
     return (
         <>
-        <div>{click}</div>
-        <button onClick={handleClick}>Click-Counter</button>
+        <div>{value}</div>
+        <button onClick={onUpdate}>Click up</button>
         </>
     )
 }
