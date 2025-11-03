@@ -5,6 +5,9 @@ import TextStyle from "./style-components";
 import AlertClsx from "./clsx";
 import ButtonUsual from "./button";
 import IconsAi from "./icons";
+import EventClick from "./events";
+import EventClickNumber from "./sevents-number";
+import ClickCounter from "./click-couter";
 import "../App.css";
 
 export default function App() {
@@ -34,6 +37,9 @@ export default function App() {
       <AlertClsx type="error"></AlertClsx>
       <ButtonUsual variant='dis' text="Open"></ButtonUsual>
       <IconsAi name=""></IconsAi>
+      <EventClick></EventClick>
+      <EventClickNumber></EventClickNumber>
+      <ClickCounter></ClickCounter>
     </>
   );
 }
